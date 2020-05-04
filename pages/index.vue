@@ -25,7 +25,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Pesenku Siji,... ojo lali mangan...🤣😠 ^2500', 'Semmangatssss! >_<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Jolali aku yo ...🤣😠 ^2500', 'PESENKU SIJI... KAPAN KITA RABIII🤣! >_<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
