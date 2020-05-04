@@ -76,7 +76,7 @@ export default {
         if (now >= 11) return "Good Day";
         if (now >= 5) return "Good Morning";
         if (now >= 0) return "Good Night😊";
-        if (now >= 17:50) return "Happy Breakfasting 😋😋😋";
+        if (now >= 17.50) return "Happy Breakfasting 😋😋😋";
       },
       darkMode: function() {
         const now = new Date().getHours();
