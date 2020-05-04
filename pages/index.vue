@@ -50,7 +50,7 @@ if (process.browser) {
       const x = ev.clientX;
       const y = ev.clientY;
       let el = document.createElement("div");
-      el.innerHTML = `<h1>${random(["☺️", "😂🥰", "😠🥴😁"])}</h1>`;
+      el.innerHTML = `<h1>${random(["😋", "😂🥰", "😠🥴😁"])}</h1>`;
       el.classList.add("popup");
 
       el.style.left = `${x}px`;
@@ -71,11 +71,12 @@ export default {
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
-        if (now > 18) return "Good Evening";
-        if (now > 15) return "Good Afternoon";
-        if (now > 11) return "Good Day";
-        if (now > 5) return "Good Morning";
-        if (now >= 0) return "Good Night";
+        if (now >= 18) return "Good Evening";
+        if (now >= 13) return "Good Afternoon";
+        if (now >= 11) return "Good Day";
+        if (now >= 5) return "Good Morning";
+        if (now >= 0) return "Good Night😊";
+        if (now >= 17:50) return "Happy Breakfasting 😋😋😋";
       },
       darkMode: function() {
         const now = new Date().getHours();
