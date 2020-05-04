@@ -1,10 +1,10 @@
 // prettier-ignore
 export default [
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "EVERYTHING WAS BEAUTIFUL" },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "AKU KAMU, dan Dia sebagai Modennnnn #AyoRabi🥰" },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "Mau Gak jadi Pacarku...????" },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "I love you." },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "I may not with you everyday, but I love you everyday." },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "Hari ini, hari esok, Hari-Hari bersamamu" },
-    { author: "~/NOVITA RAMADHANI FIRDAUS/~", quotes: "I'm sorry for loving you😞😞😞." },
+    { author: "~/MacheJndr00/~", quotes: "EVERYTHING WAS BEAUTIFUL" },
+    { author: "~/MacheJndr00/~", quotes: "AKU KAMU, dan Dia sebagai Modennnnn #AyoRabi🥰" },
+    { author: "~/MacheJndr00/~", quotes: "Mau Gak jadi Pacarku...????" },
+    { author: "~/MacheJndr00/~", quotes: "Maafkeun kegabutanku dan Kebucinankuu." },
+    { author: "~/MacheJndr00/~", quotes: "parampam pam pam dar jedar." },
+    { author: "~/MacheJndr00/~", quotes: "Hari ini, hari esok, Hari-Hari bersamamu" },
+    { author: "~/MacheJndr00/~", quotes: "harraaaaa karena gabut jadi iseng buat ini untuk kamuuu🤣🤣🤣." },
 ];
