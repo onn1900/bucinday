@@ -71,12 +71,12 @@ export default {
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
-        if (now > 18) return "Good Evening";
+        if (now >= 19) return "Good Evening";
         if (now >= 13) return "Good Afternoon";
         if (now >= 11) return "Good Day";
         if (now >= 5) return "Good Morning";
         if (now >= 0) return "Good Night😊";
-        if (now >= 17.50) return "Happy Breakfasting 😋😋😋";
+        if (now >= 18) return "Happy Breakfasting 😋😋😋";
       },
       darkMode: function() {
         const now = new Date().getHours();
