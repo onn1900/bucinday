@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["Nov", "Konco Chatku", "Sayangku ( ngipi )", "Novita Halu", "NOVITA RAMADHANI FIRDAUS"]),
+      nicknames: this.random(["Che", "Konco Chatku", "Bebep ( ngipi )", "Mache Junidar", "Annisa Maulida Junidar"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
