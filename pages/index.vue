@@ -50,7 +50,7 @@ if (process.browser) {
       const x = ev.clientX;
       const y = ev.clientY;
       let el = document.createElement("div");
-      el.innerHTML = `<h1>${random(["😋", "😂🥰", "😠🥴😁"])}</h1>`;
+      el.innerHTML = `<h1>${random(["💕", "💕💕", "💕💕💕"])}</h1>`;
       el.classList.add("popup");
 
       el.style.left = `${x}px`;
@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["Che", "Konco Chatku", "Bebep ( ngipi )", "Mache Junidar", "Annisa Maulida Junidar"]),
+      nicknames: this.random(["Rita", "Babe🥰!!!", "Bebep", "Syangkuhhhh", "pacarku tercintahhhh😂"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
