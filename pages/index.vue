@@ -25,7 +25,7 @@
         class="vue-typed"
         :showCursor="false"
         :loop="true"
-        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'I always wanted to tell you... ^2500', 'Nevermind! >///<']"
+        :strings="[greetings() + ', ' + nicknames + '! ^5000', 'Pesenku Siji,... ojo lali mangan...🤣😠 ^2500', 'Semmangatssss! >_<']"
         :backDelay="500"
         :typeSpeed="100"
         :backSpeed="20"
@@ -50,7 +50,7 @@ if (process.browser) {
       const x = ev.clientX;
       const y = ev.clientY;
       let el = document.createElement("div");
-      el.innerHTML = `<h1>${random(["♥", "♥♥", "♥♥♥"])}</h1>`;
+      el.innerHTML = `<h1>${random(["☺️", "😂🥰", "😠🥴😁"])}</h1>`;
       el.classList.add("popup");
 
       el.style.left = `${x}px`;
@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["Ava", "Babe", "Sayang", "Avakuu", "Cintuu"]),
+      nicknames: this.random(["Nov", "Konco Chatku", "Sayangku ( ngipi )", "Novita Halu", "NOVITA RAMADHANI FIRDAUS"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
