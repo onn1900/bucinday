@@ -67,14 +67,14 @@ export default {
   data() {
     return {
       // prettier-ignore
-      nicknames: this.random(["Rita", "Babe🥰!!!", "Bebep", "Syangkuhhhh", "pacarku tercintahhhh😂"]),
+      nicknames: this.random(["Rita", "Babe Rita😂🥰!!!", "RitaGuembengan😝😝😝", "Rita AyuFitria", "Rita Gembenggg😂"]),
       quotes: this.random(quotesFile),
       greetings: function() {
         const now = new Date().getHours();
-        if (now >= 19) return "Good Evening";
-        if (now >= 13) return "Good Afternoon";
-        if (now >= 11) return "Good Day";
-        if (now >= 5) return "Good Morning";
+        if (now >= 19) return "Good Evening😊";
+        if (now >= 13) return "Good Afternoon😊";
+        if (now >= 11) return "Good Day😊";
+        if (now >= 5) return "Good Morning😊";
         if (now >= 0) return "Good Night😊";
         if (now >= 18) return "Happy Breakfasting 😋😋😋";
       },
